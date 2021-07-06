@@ -16,6 +16,7 @@ public class Addition
 			temp = ip.nextInt();
 			sum = sum + temp;
 		}
+		system.out.println("output");
 		System.out.println(" The sum of all input numbers is : " + sum);
 		ip.close();// necessary to avoid memory leaks
 	}
